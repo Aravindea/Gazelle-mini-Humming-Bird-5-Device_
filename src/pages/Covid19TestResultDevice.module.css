@@ -1,0 +1,141 @@
+.homeIc,
+.leftArrowPreviousPageIc {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 24px;
+  position: relative;
+  height: 24px;
+  background-image: url(/public/image4@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.leftArrowPreviousPageIc {
+  background-image: url(/public/image5@2x.png);
+}
+.homePreviousPageButton {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 56px;
+}
+.covid19TestResults {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.covid19TestResultsTitleBa1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 768px;
+}
+.covid19TestResultsTitleBa {
+  align-self: stretch;
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-mini);
+}
+.covid19TestResultsImg {
+  width: 347px;
+  position: relative;
+  height: 174.5px;
+  object-fit: cover;
+}
+.print {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-work-sans);
+  color: var(--color-black);
+  text-align: left;
+}
+.printButton1,
+.printButton2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.printButton2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-3xs);
+  background-color: var(--color-navajowhite);
+  width: 112px;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  box-sizing: border-box;
+}
+.printButton1 {
+  align-items: flex-start;
+}
+.printButton,
+.printButton3 {
+  display: flex;
+  align-items: center;
+}
+.printButton3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-3xs);
+  background-color: var(--color-navajowhite);
+  width: 112px;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.printButton {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.covid19TestResultsDiv {
+  width: 100%;
+  align-items: center;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-89xl);
+  max-width: 350px;
+}
+.bodyScreen,
+.covid19TestResultDevice1,
+.covid19TestResultsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bodyScreen {
+  align-self: stretch;
+  background-color: var(--color-white);
+  height: 727px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  padding: var(--padding-26xl) var(--padding-mini) var(--padding-61xl);
+  box-sizing: border-box;
+}
+.covid19TestResultDevice1 {
+  width: 100%;
+  position: relative;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-work-sans);
+}
